@@ -8,8 +8,6 @@ load_dotenv()
 user = os.getenv('MONGO_USER')
 pas = os.getenv('MONGO_PASS')
 
-
-#uri = "mongodb+srv://"+user+":"+pas+"@cluster0.2dw56pq.mongodb.net/?retryWrites=true&w=majority"
 uri = f"mongodb+srv://{user}:{pas}@clusterciber.mpi0qkr.mongodb.net/?retryWrites=true&w=majority"
 
 
